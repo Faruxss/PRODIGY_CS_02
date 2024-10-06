@@ -86,29 +86,6 @@ Image decrypted and saved as path/to/decrypted_image.png
 - **`get_valid_key()`**: Ensures that the user provides a valid key between 0 and 255.
 - **`main()`**: Main loop that prompts the user for encryption or decryption options and handles the execution.
 
-## Example
-
-Here's an example of encrypting and decrypting an image:
-
-### Encrypting:
-
-```bash
-Do you want to (E)ncrypt or (D)ecrypt an image? e
-Enter the path of the image: images/sample.png
-Enter the output path for the new image: images/encrypted_sample.png
-Enter the encryption key (a number between 0 and 255): 50
-Image encrypted and saved as images/encrypted_sample.png
-```
-
-### Decrypting:
-
-```bash
-Do you want to (E)ncrypt or (D)ecrypt an image? d
-Enter the path of the image: images/encrypted_sample.png
-Enter the output path for the new image: images/decrypted_sample.png
-Enter the encryption key (a number between 0 and 255): 50
-Image decrypted and saved as images/decrypted_sample.png
-```
 
 ## Error Handling
 
